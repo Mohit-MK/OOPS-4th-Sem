@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+
+    int m,n;
+    cout<<"Enter the row Size Of the Matrix:";
+    cin>>m;
+    cout<<"Enter the columns Size Of the Matrix:";
+    cin>>n;
+    int matrix[m][n];
+    int i,j;
+
+    cout<<"Enter the Matrix Element:\n";
+
+    for(i=0;i<m;i++)
+    {
+
+        for(j=0;j<n;j++)
+        {
+            cin>>matrix[i][j];
+        }
+    }
+    cout<<"Given Matrix is:\n";
+    for(i=0;i<m;i++)
+    {
+
+        for(j=0;j<n;j++)
+        {
+
+            cout<<matrix[i][j]<<" ";
+
+        }
+
+        cout<<"\n";
+
+    }
+
+}
