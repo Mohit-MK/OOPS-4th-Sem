@@ -26,6 +26,5 @@ int main (){
 		cout<<n<<"^"<<p<<" = "<<result<<"\n\n";
 	}
 	
-	system("pause");
 	return 0;
 }
